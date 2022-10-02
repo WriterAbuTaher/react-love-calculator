@@ -35,6 +35,8 @@ function FormInput() {
                 'success'
             )
         }
+        setSearch1("")
+        setSearch2("")
     }
 
     const options = {

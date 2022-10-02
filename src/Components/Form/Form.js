@@ -6,6 +6,8 @@ import Swal from 'sweetalert2'
 
 function FormInput() {
 
+    // const [yourName, setYourName] = useState([])
+    // const [loveName, setLoveName] = useState([])
     const [search1, setSearch1] = useState([]);
     const [search2, setSearch2] = useState([]);
     const [data, setData] = useState([]);
@@ -42,6 +44,7 @@ function FormInput() {
             'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
         }
     };
+
     return (
         <div className='container text-center my-5'>
             <h1 style={{ color: "violet" }} className="my-4 text-primary">Choose Your Love 💖</h1>

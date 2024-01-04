@@ -1,12 +1,12 @@
-import './App.css';
-import FormInput from './Components/Form/Form';
-import NavBar from './Components/Navbar/Navbar';
+import "./App.css";
+import FormInput from "./Components/Form/Form";
+import MainNavbar from "./Components/MainNavbar/MainNavbar";
 
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
-      <FormInput></FormInput>
+      <MainNavbar />
+      <FormInput />
     </div>
   );
 }
